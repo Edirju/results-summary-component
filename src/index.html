@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./output.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class=" font-Hanken-Grotesk">
+  
+  <section class=" w-[375px] mx-auto bg-white mb-10 shadow-lg shadow-Darkgrayblue-alpha md:flex md:mt-6 md:w-[740px] md:h-[512px] md:rounded-3xl md:overflow-hidden">
+    <!-- Parte Azul -->
+    <div class="bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue h-[356px] pt-8 px-10 text-center rounded-b-3xl md:w-[370px] md:h-full md:rounded-3xl md:pt-12">
+      <h2 class="mb-6 text-Light-lavender text-[18px] md:mb-10">Your Result</h2>
+      <div class="bg-gradient-to-t from-Light-slate-blue to-Light-royal-blue rounded-full h-[140px] w-[140px] mx-auto grid place-content-center mb-6 text-[18px] md:mb-10">
+        <p class="text-white text-4xl font-bold md:text-5xl">76</p>
+        <p class="text-Light-lavender">of 100</p>
+      </div>
+      
+      <p class="text-white text-[18px] md:text-3xl md:mb-6">Great</p>
+      <p class="text-Light-lavender md:text-xl">You scored higher than 65% of the people who have taken these tests.</p>
+      
+    </div>
+
+    <!-- // Parte Blanca -->
+    <div class="p-8 h-[454px] md:w-[370px] md:py-14 md:px-10">
+      <h2 class="text-[18px] mb-6 font-bold md:text-2xl">Summary</h2>
+      
+      <div class="bg-Lightred-alpha flex justify-between p-3 items-center rounded-lg mb-4 h-[54px] md:text-xl md:px-4">
+        <p class="text-Lightred flex gap-2">
+          <img src="../assets/images/icon-reaction.svg" alt="reaction">
+          <span>Reaction</span>
+        </p>
+        <p>80 <span class="text-Darkgrayblue-alpha">/ 100</span></p>
+      </div>
+
+      <div class="bg-Orangeyyellow-alpha flex justify-between items-center p-3 rounded-lg mb-4 h-[54px md:text-xl md:px-4] ">
+        <p class="text-Orangeyyellow flex gap-2">
+          <img src="../assets/images/icon-memory.svg" alt="memory">
+          <span>Memory</span>
+        </p>
+        <p>92 <span class="text-Darkgrayblue-alpha">/ 100</span></p>
+      </div>
+
+      <div class="bg-Greenteal-alpha flex justify-between items-center p-3 rounded-lg mb-4 h-[54px] md:text-xl md:px-4" >
+        <p class="text-Greenteal flex gap-2">
+          <img src="../assets/images/icon-verbal.svg" alt="verbal">
+          <span>Verbal</span>
+        </p>
+        <p>61 <span class="text-Darkgrayblue-alpha">/ 100</span></p>
+      </div>
+
+      <div class="bg-Cobaltblue-alpha flex justify-between items-center p-3 rounded-lg mb-4 h-[54px] md:text-xl md:px-4 md:mb-10" >
+        <p class="text-Cobaltblue flex gap-2">
+          <img src="../assets/images/icon-visual.svg" alt="visual">
+          <span>Visual</span>
+        </p>
+        <p>72 <span class="text-Darkgrayblue-alpha">/ 100</span></p>
+      </div>
+
+      <button class="bg-Darkgrayblue text-Light-lavender w-full h-14 rounded-3xl text-[18px] hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue">Continue</button>
+      
+    </div>
+  </section>
+  
+
+  <div class="attribution text-[11px] text-center mb-4">
+    Challenge by <a class=" text-Blue-Attribution font-medium" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" class=" text-Blue-Attribution font-medium">Edinson Rivera</a>.
+  </div>
+</body>
+</html>
